@@ -1,7 +1,8 @@
-package henry.hotel.dao;
+package dan.parlour.dao;
 
 import java.util.Collection;
-import henry.hotel.entity.Reservation;
+
+import dan.parlour.entity.Reservation;
 
 // DAO Pattern for Reservation
 public interface ReservationDao {

@@ -1,7 +1,7 @@
-package henry.hotel.services;
+package dan.parlour.services;
 
-import henry.hotel.entity.User;
-import henry.hotel.temp.CurrentUser;
+import dan.parlour.entity.User;
+import dan.parlour.temp.CurrentUser;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 

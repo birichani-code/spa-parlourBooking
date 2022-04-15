@@ -1,9 +1,9 @@
-package henry.hotel.services;
+package dan.parlour.services;
 
 import java.util.Collection;
 
-import henry.hotel.entity.Reservation;
-import henry.hotel.temp.CurrentReservation;
+import dan.parlour.entity.Reservation;
+import dan.parlour.temp.CurrentReservation;
 
 //Service Pattern for Reservation
 public interface ReservationService {

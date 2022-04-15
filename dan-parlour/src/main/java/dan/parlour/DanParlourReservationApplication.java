@@ -1,13 +1,13 @@
-package henry.hotel;
+package dan.parlour;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HotelReservationApplication {
+public class DanParlourReservationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HotelReservationApplication.class, args);
+		SpringApplication.run(DanParlourReservationApplication.class, args);
 	}
 
 }

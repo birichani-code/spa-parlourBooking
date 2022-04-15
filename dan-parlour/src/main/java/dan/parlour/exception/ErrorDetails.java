@@ -1,4 +1,4 @@
-package henry.hotel.exception;
+package dan.parlour.exception;
 
 import java.util.Date;
 

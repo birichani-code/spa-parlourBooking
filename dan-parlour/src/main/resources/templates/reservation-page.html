@@ -55,7 +55,7 @@
 
 	<!-- Hotel Booking Section -->
 	<div class="container">
-		<h2 class="sub-title" id="book">Hotel Booking</h2>
+		<h2 class="sub-title" id="book">Parlour&Spa Booking</h2>
 		<div class="hotel_reserve_box card">
 			<h3>Booking Form</h3>
 			<br>
@@ -63,11 +63,11 @@
 			<!-- Reservation form -->
 			<form id="resForm" name="resForm" th:action="@{/proceed-reservation}" th:object="${newRes}" method="POST">
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-				
+
 				<div class="form-group">
 				
 					<!-- Room Type -->
-					<input type="hidden" th:field="*{id}" /> <label>Room/SuiteType</label>
+					<input type="hidden" th:field="*{id}" /> <label>ServicesType</label>
 					<select class="form-control prc" th:field="*{room}" id="room_type" required>
 						<option value="Massages">Massages</option>
 						<option value="Facial Treatment">Facial Treatment</option>
@@ -78,6 +78,7 @@
 						<option value="Manicure">Manicure </option>
 						<option value="Pedicure Services">Pedicure
 							Services</option>
+
 					</select>
 				</div>
 
@@ -110,12 +111,15 @@
 
 				<!-- Restaurant Buffet -->
 				<div class="form-group">
-					<label>Free Services</label> <select class="form-control prc" id="res_buffet"
+					<label>Services Place</label> <select class="form-control prc" id="res_buffet"
 						th:field="*{openBuffet}" required>
-						<option value="YES">Yes</option>
-						<option value="NO">No</option>
+						<option value="thika">Juja</option>
+						<option value="thika">Thika</option>
+					    <option value="ruiru">Ruiru</option>
+					    <option value="cbd">CBD</option>
 					</select>
 				</div>
+
 
 				<!-- Arrival Date -->
 				<div class="form-group">

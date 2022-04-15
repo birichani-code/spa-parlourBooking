@@ -1,4 +1,4 @@
-package henry.hotel.temp;
+package dan.parlour.temp;
 
 public class CurrentRole {
 	// unused class

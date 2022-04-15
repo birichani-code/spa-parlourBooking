@@ -1,4 +1,4 @@
-package henry.hotel.entity;
+package dan.parlour.entity;
 
 import java.util.Date;
 

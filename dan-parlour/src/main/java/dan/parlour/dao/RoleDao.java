@@ -1,6 +1,6 @@
-package henry.hotel.dao;
+package dan.parlour.dao;
 
-import henry.hotel.entity.Role;
+import dan.parlour.entity.Role;
 
 //DAO Pattern for Role
 public interface RoleDao {

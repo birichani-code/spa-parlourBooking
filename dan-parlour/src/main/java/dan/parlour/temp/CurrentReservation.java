@@ -1,4 +1,4 @@
-package henry.hotel.temp;
+package dan.parlour.temp;
 
 import java.util.Date;
 

@@ -1,10 +1,10 @@
-package henry.hotel;
+package dan.parlour;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HotelReservationApplicationTests {
+class DanParlourReservationApplicationTests {
 
 	@Test
 	void contextLoads() {

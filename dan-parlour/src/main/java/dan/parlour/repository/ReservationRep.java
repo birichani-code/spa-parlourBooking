@@ -1,11 +1,11 @@
-package henry.hotel.repository;
+package dan.parlour.repository;
 
 import java.util.Collection;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import henry.hotel.entity.Reservation;
+import dan.parlour.entity.Reservation;
 
 @Repository
 public interface ReservationRep extends JpaRepository<Reservation, Integer> {

@@ -1,15 +1,15 @@
-package henry.hotel.services;
+package dan.parlour.services;
 
 import java.util.Collection;
 
 import javax.transaction.Transactional;
 
+import dan.parlour.entity.Reservation;
+import dan.parlour.repository.ReservationRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import henry.hotel.entity.Reservation;
-import henry.hotel.repository.ReservationRep;
-import henry.hotel.temp.CurrentReservation;
+import dan.parlour.temp.CurrentReservation;
 
 @Service
 public class ReservationServiceImpl implements ReservationService {

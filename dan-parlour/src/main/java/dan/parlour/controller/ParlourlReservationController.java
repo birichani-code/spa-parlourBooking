@@ -1,9 +1,10 @@
-package henry.hotel.controller;
+package dan.parlour.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
+import dan.parlour.services.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
@@ -22,20 +23,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import henry.hotel.services.ReservationService;
-import henry.hotel.services.UserService;
-import henry.hotel.temp.CurrentReservation;
-import henry.hotel.temp.CurrentUser;
+import dan.parlour.services.UserService;
+import dan.parlour.temp.CurrentReservation;
+import dan.parlour.temp.CurrentUser;
 
 @Controller
-public class HotelReservationController {
+public class ParlourlReservationController {
 
 	private UserService userService;
 
 	private ReservationService reservationService;
 	
 	@Autowired
-	public HotelReservationController(UserService userService, ReservationService reservationService) {
+	public ParlourlReservationController(UserService userService, ReservationService reservationService) {
 		this.userService = userService;
 		this.reservationService = reservationService;
 	}

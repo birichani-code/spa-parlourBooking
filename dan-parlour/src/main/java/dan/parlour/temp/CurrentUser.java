@@ -1,10 +1,10 @@
-package henry.hotel.temp;
+package dan.parlour.temp;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import henry.hotel.validation.FieldMatch;
-import henry.hotel.validation.ValidEmail;
+import dan.parlour.validation.FieldMatch;
+import dan.parlour.validation.ValidEmail;
 
 // field match annotation for passwords
 @FieldMatch.List({

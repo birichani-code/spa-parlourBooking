@@ -1,4 +1,4 @@
-package henry.hotel.security;
+package dan.parlour.security;
 
 import java.io.IOException;
 
@@ -7,13 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import dan.parlour.entity.User;
+import dan.parlour.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
-
-import henry.hotel.entity.User;
-import henry.hotel.services.UserService;
 
 @Component
 public class CustomAuthenticationSuccessHandler implements AuthenticationSuccessHandler {

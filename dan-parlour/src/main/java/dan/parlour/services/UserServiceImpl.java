@@ -1,9 +1,10 @@
-package henry.hotel.services;
+package dan.parlour.services;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
+import dan.parlour.repository.UserRep;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -14,11 +15,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import henry.hotel.entity.Role;
-import henry.hotel.entity.User;
-import henry.hotel.repository.RoleRep;
-import henry.hotel.repository.UserRep;
-import henry.hotel.temp.CurrentUser;
+import dan.parlour.entity.Role;
+import dan.parlour.entity.User;
+import dan.parlour.repository.RoleRep;
+import dan.parlour.temp.CurrentUser;
 
 @Service
 public class UserServiceImpl implements UserService {

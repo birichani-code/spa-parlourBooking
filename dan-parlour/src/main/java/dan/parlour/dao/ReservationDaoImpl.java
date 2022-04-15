@@ -1,15 +1,14 @@
-package henry.hotel.dao;
+package dan.parlour.dao;
 
 import java.util.Collection;
 
 import javax.persistence.EntityManager;
 
+import dan.parlour.entity.Reservation;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
-import henry.hotel.entity.Reservation;
 
 @Repository
 public class ReservationDaoImpl implements ReservationDao {

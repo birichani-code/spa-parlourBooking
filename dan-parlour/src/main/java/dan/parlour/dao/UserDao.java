@@ -1,6 +1,6 @@
-package henry.hotel.dao;
+package dan.parlour.dao;
 
-import henry.hotel.entity.User;
+import dan.parlour.entity.User;
 
 //DAO Pattern for User
 public interface UserDao {
